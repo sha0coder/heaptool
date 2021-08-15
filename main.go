@@ -49,7 +49,7 @@ func main() {
 	pid := flag.Int("p", 0, "pid")
 	kw := flag.String("k","", "keyword")
 	a := flag.Int("a", 0, "address")
-	bs := flag.Int("bs", 0, "bytes")
+	bs := flag.Int("bs", 0, "number of bytes")
 	x := flag.Bool("x", false, "display hex bytes")
 	flag.Parse()
 
